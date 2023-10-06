@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUI_Supabase_Calendly_CloneApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
 }

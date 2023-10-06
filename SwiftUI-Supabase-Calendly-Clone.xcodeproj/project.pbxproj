@@ -8,17 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		75B39D5D2AD0548D0040C925 /* SwiftUI_Supabase_Calendly_CloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B39D5C2AD0548D0040C925 /* SwiftUI_Supabase_Calendly_CloneApp.swift */; };
-		75B39D5F2AD0548D0040C925 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B39D5E2AD0548D0040C925 /* ContentView.swift */; };
+		75B39D5F2AD0548D0040C925 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B39D5E2AD0548D0040C925 /* HomeView.swift */; };
 		75B39D612AD0548E0040C925 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75B39D602AD0548E0040C925 /* Assets.xcassets */; };
 		75B39D642AD0548E0040C925 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75B39D632AD0548E0040C925 /* Preview Assets.xcassets */; };
+		75B39D6B2AD069C30040C925 /* DayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B39D6A2AD069C30040C925 /* DayView.swift */; };
+		75B39D6D2AD06B020040C925 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B39D6C2AD06B020040C925 /* Date+Ext.swift */; };
+		75B39D6F2AD06DEE0040C925 /* BookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B39D6E2AD06DEE0040C925 /* BookingView.swift */; };
+		75B39D712AD071070040C925 /* ConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B39D702AD071070040C925 /* ConfirmationView.swift */; };
+		75B39D732AD07CA00040C925 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B39D722AD07CA00040C925 /* DatabaseManager.swift */; };
+		75B39D762AD07D710040C925 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 75B39D752AD07D710040C925 /* Supabase */; };
+		75B39D782AD0911D0040C925 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B39D772AD0911D0040C925 /* AppRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		75B39D592AD0548D0040C925 /* SwiftUI-Supabase-Calendly-Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Supabase-Calendly-Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75B39D5C2AD0548D0040C925 /* SwiftUI_Supabase_Calendly_CloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Supabase_Calendly_CloneApp.swift; sourceTree = "<group>"; };
-		75B39D5E2AD0548D0040C925 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		75B39D5E2AD0548D0040C925 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		75B39D602AD0548E0040C925 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75B39D632AD0548E0040C925 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		75B39D6A2AD069C30040C925 /* DayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayView.swift; sourceTree = "<group>"; };
+		75B39D6C2AD06B020040C925 /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
+		75B39D6E2AD06DEE0040C925 /* BookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingView.swift; sourceTree = "<group>"; };
+		75B39D702AD071070040C925 /* ConfirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationView.swift; sourceTree = "<group>"; };
+		75B39D722AD07CA00040C925 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		75B39D772AD0911D0040C925 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75B39D762AD07D710040C925 /* Supabase in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,7 +66,13 @@
 			isa = PBXGroup;
 			children = (
 				75B39D5C2AD0548D0040C925 /* SwiftUI_Supabase_Calendly_CloneApp.swift */,
-				75B39D5E2AD0548D0040C925 /* ContentView.swift */,
+				75B39D5E2AD0548D0040C925 /* HomeView.swift */,
+				75B39D6A2AD069C30040C925 /* DayView.swift */,
+				75B39D6E2AD06DEE0040C925 /* BookingView.swift */,
+				75B39D702AD071070040C925 /* ConfirmationView.swift */,
+				75B39D772AD0911D0040C925 /* AppRouter.swift */,
+				75B39D6C2AD06B020040C925 /* Date+Ext.swift */,
+				75B39D722AD07CA00040C925 /* DatabaseManager.swift */,
 				75B39D602AD0548E0040C925 /* Assets.xcassets */,
 				75B39D622AD0548E0040C925 /* Preview Content */,
 			);
@@ -83,6 +103,9 @@
 			dependencies = (
 			);
 			name = "SwiftUI-Supabase-Calendly-Clone";
+			packageProductDependencies = (
+				75B39D752AD07D710040C925 /* Supabase */,
+			);
 			productName = "SwiftUI-Supabase-Calendly-Clone";
 			productReference = 75B39D592AD0548D0040C925 /* SwiftUI-Supabase-Calendly-Clone.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +134,9 @@
 				Base,
 			);
 			mainGroup = 75B39D502AD0548D0040C925;
+			packageReferences = (
+				75B39D742AD07D710040C925 /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
 			productRefGroup = 75B39D5A2AD0548D0040C925 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +163,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75B39D5F2AD0548D0040C925 /* ContentView.swift in Sources */,
+				75B39D5F2AD0548D0040C925 /* HomeView.swift in Sources */,
+				75B39D712AD071070040C925 /* ConfirmationView.swift in Sources */,
+				75B39D6B2AD069C30040C925 /* DayView.swift in Sources */,
 				75B39D5D2AD0548D0040C925 /* SwiftUI_Supabase_Calendly_CloneApp.swift in Sources */,
+				75B39D782AD0911D0040C925 /* AppRouter.swift in Sources */,
+				75B39D6D2AD06B020040C925 /* Date+Ext.swift in Sources */,
+				75B39D6F2AD06DEE0040C925 /* BookingView.swift in Sources */,
+				75B39D732AD07CA00040C925 /* DatabaseManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +376,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		75B39D742AD07D710040C925 /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase-community/supabase-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		75B39D752AD07D710040C925 /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 75B39D742AD07D710040C925 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 75B39D512AD0548D0040C925 /* Project object */;
 }
